@@ -10,6 +10,6 @@ const { verifyJwt} = require('../utils/verifyJWT')
 router.use('/users', routerUser)
 router.use('/categories', routerCategory)
 router.use('/products', routerProduct)
-router.use('/carts', verifyJwt, routerCart)
+router.use('/cart', verifyJwt, routerCart)
 
 module.exports = router;
