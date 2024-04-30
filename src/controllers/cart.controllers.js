@@ -1,3 +1,4 @@
+require('../models')
 const catchError = require('../utils/catchError');
 const Cart = require('../models/Cart');
 const Category = require('../models/Category');
